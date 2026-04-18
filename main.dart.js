@@ -97497,7 +97497,7 @@ case 5:return A.G(null,r)
 case 1:return A.F(p.at(-1),r)}})
 return A.H($async$oM,r)},
 L(a){return A.vt(new A.apW(this))},
-aoI(a,b){var s=this,r=null,q=t.p,p=A.bL(A.b([A.aa(""+J.bR(s.e)+" user terdaftar",r,r,r,r,A.ax().$2$color$fontSize(B.V,13),r,r),B.dQ,A.aFb(B.K2,B.a_x,new A.apU(s),r),B.bT,A.eU(r,r,r,B.ly,r,r,s.gaip(),r,r,r,r)],q),B.v,B.n,B.r,0,r)
+aoI(a,b){var s=this,r=null,q=t.p,p=A.bL(A.b([A.aa(""+J.bR(s.e)+" user terdaftar",r,r,r,r,A.ax().$2$color$fontSize(B.V,13),r,r),B.dQ,A.aFb(B.K2,B.a_w,new A.apU(s),r),B.bT,A.eU(r,r,r,B.ly,r,r,s.gaip(),r,r,r,r)],q),B.v,B.n,B.r,0,r)
 return A.c4(A.b([new A.bf(new A.a4(a,12,a,12),p,r),A.cu(s.r?B.fa:A.ad3(r,new A.apV(s,b),J.bR(s.e),new A.a4(a,0,a,0)),1)],q),B.v,B.n,B.r)},
 aoH(a,b){var s,r,q,p,o=null,n="display_name",m="role",l="last_activity",k=J.d(a.i(0,"is_online"),!0),j=J.d(a.i(0,"is_active"),!0),i=A.bt(14),h=A.hL(B.a4.b9(0.3),1),g=B.L.b9(0.12),f=a.i(0,n)
 g=A.aET(g,A.aa(J.aEw(J.cc(f==null?"U":f,0)),o,o,o,o,A.ax().$3$color$fontSize$fontWeight(B.L,16,B.aF),o,o),22)
@@ -97551,7 +97551,7 @@ s=6
 return A.D(A.a49(a.i(0,"id")),$async$yM)
 case 6:o.lS()
 m=o.c
-if(m!=null)m.ab(t.d).f.it(B.Vf)
+if(m!=null)m.ab(t.d).f.it(B.Ve)
 q=1
 s=5
 break
@@ -97690,7 +97690,7 @@ return p},
 $S:597}
 A.apF.prototype={
 $1(a){var s=null,r=A.aa('Hapus user "'+A.l(this.a.i(0,"display_name"))+'"?',s,s,s,s,s,s,s)
-return A.Lo(A.b([A.t3(B.hg,new A.apD(a),s),A.uT(B.mX,new A.apE(a),A.AW(s,s,B.af,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s))],t.p),s,r,B.a_z)},
+return A.Lo(A.b([A.t3(B.hg,new A.apD(a),s),A.uT(B.mX,new A.apE(a),A.AW(s,s,B.af,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s))],t.p),s,r,B.a_y)},
 $S:70}
 A.apD.prototype={
 $0(){A.eB(this.a,!1).jK(!1)
@@ -97949,9 +97949,9 @@ o=k.uw(s)
 n=k.uw(r)
 m=q!=null?k.adi(q):"Belum pernah"
 l=t.N6
-p=A.a0(new A.Z(A.b([new A.l4("Total Dosen",p,B.lw,B.L,B.Lf),new A.l4("Rumpun Prodi",o,B.pK,B.c3,B.Lc),new A.l4("Perguruan Tinggi",n,B.Jy,B.bK,B.Le),new A.l4("Last Scrape",m,B.pJ,B.bM,B.Ld)],t.nb),new A.asZ(k,b,a),l),l.h("am.E"))
+p=A.a0(new A.Z(A.b([new A.l4("Total Dosen",p,B.lw,B.L,B.Lf),new A.l4("Program Studi",o,B.pK,B.c3,B.Lc),new A.l4("Perguruan Tinggi",n,B.Jy,B.bK,B.Le),new A.l4("Last Scrape",m,B.pJ,B.bM,B.Ld)],t.nb),new A.asZ(k,b,a),l),l.h("am.E"))
 return A.FW(p,16,16)},
-UV(){var s,r,q,p,o,n,m=null,l="Distribusi Per Rumpun",k=this.d.i(0,"by_rumpun")
+UV(){var s,r,q,p,o,n,m=null,l="Distribusi Per Program Studi",k=this.d.i(0,"by_rumpun")
 if(k==null){k=t.z
 k=A.x(k,k)}s=A.vv(k,t.N,t.z)
 if(s.a===0)return this.yH(l)
@@ -98034,7 +98034,7 @@ s.e=!1},
 $S:0}
 A.at_.prototype={
 $2(a,b){var s=null,r=b.b,q=r>900,p=q?28:16,o=this.a,n=t.p
-r=A.b([A.aa("Dashboard",s,s,s,s,A.ax().$3$color$fontSize$fontWeight(B.aa,q?28:22,B.aF),s,s),B.eO,A.aa("Statistik data dosen rumpun Ekonomi Syariah",s,s,s,s,A.ax().$2$color$fontSize(B.V,14),s,s),B.mN,o.and(r>600,q),B.mN],n)
+r=A.b([A.aa("Dashboard",s,s,s,s,A.ax().$3$color$fontSize$fontWeight(B.aa,q?28:22,B.aF),s,s),B.eO,A.aa("Statistik data dosen program studi Ekonomi Syariah",s,s,s,s,A.ax().$2$color$fontSize(B.V,14),s,s),B.mN,o.and(r>600,q),B.mN],n)
 if(q)r.push(A.bL(A.b([A.cu(o.UV(),1),B.mM,A.cD(o.RJ(),s,340)],n),B.a_,B.n,B.r,0,s))
 else B.b.U(r,A.b([o.UV(),B.cw,o.RJ()],n))
 r.push(B.cw)
@@ -98343,7 +98343,7 @@ return""+A.ahI(s)+"/"+A.ahL(s)+"/"+A.aG2(s)+" "+p+":"+o}catch(n){p=J.ds(a)
 return p}},
 aa2(a){var s=this
 if(s.db==null)return B.ar
-return new A.bf(B.Ih,A.FW(A.b([s.ut("Rumpun",s.ay,s.yU("rumpun"),new A.atp(s)),s.ut("Jabatan",s.ch,s.yU("jabatan"),new A.atq(s)),s.ut("Gender",s.CW,s.yU("jenis_kelamin"),new A.atr(s)),s.ut("Pendidikan",s.cx,s.yU("pendidikan"),new A.ats(s)),s.ut("Status",s.cy,B.My,new A.att(s))],t.p),10,10),null)},
+return new A.bf(B.Ih,A.FW(A.b([s.ut("Program Studi",s.ay,s.yU("rumpun"),new A.atp(s)),s.ut("Jabatan",s.ch,s.yU("jabatan"),new A.atq(s)),s.ut("Gender",s.CW,s.yU("jenis_kelamin"),new A.atr(s)),s.ut("Pendidikan",s.cx,s.yU("pendidikan"),new A.ats(s)),s.ut("Status",s.cy,B.My,new A.att(s))],t.p),10,10),null)},
 yU(a){var s=this.db
 s=s==null?null:s.i(0,a)
 if(s==null)s=[]
@@ -98351,8 +98351,8 @@ return A.iH(s,!0,t.P)},
 ut(a,b,c,d){var s=null,r=A.vh(s,s,s,B.Io,s,s,s,s,!0,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,a,!0,!0,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s),q=t.N,p=A.b([A.aK2(A.aa("Semua",s,s,s,s,A.ax().$2$color$fontSize(B.aj,13),s,s),s,q)],t.FG)
 B.b.U(p,new A.Z(c,new A.atD(),A.V(c).h("Z<1,hf<m>>")))
 return A.cD(A.aK1(r,B.bL,!0,p,d,A.ax().$2$color$fontSize(B.aa,13),b,q),s,200)},
-aac(a,b){var s=this,r=null,q=s.at,p=s.ax,o=B.a4.b9(0.3),n=A.b([A.lw(A.aa("No",r,r,r,r,r,r,r)),A.lw(s.lN("Nama","nama")),A.lw(s.lN("NIDN","nidn")),A.lw(s.lN("Perguruan Tinggi","perguruan_tinggi")),A.lw(s.lN("Program Studi","program_studi")),A.lw(s.lN("Rumpun Prodi","rumpun_prodi")),A.lw(s.lN("Jabatan","jabatan_fungsional")),A.lw(s.lN("Pendidikan","pendidikan_terakhir")),A.lw(s.lN("Gender","jenis_kelamin")),A.lw(s.lN("Status","status_aktivitas"))],t.UR),m=J.aTf(b).geX().fh(0,new A.atw(s),t.VZ).dO(0)
-return A.akU(A.wD(A.akU(A.wD(new A.Nb(n,new A.bn(new A.atx(),t.b),r,r,new A.b3(o,t.rc),20,m,A.aUH(n),r),p,B.a8,r,r,B.an),p,new A.aty(),!0),q,B.a8,new A.a4(a,8,a,8),r,B.ag),q,r,!0)},
+aac(a,b){var s=this,r=null,q="Program Studi",p=s.at,o=s.ax,n=B.a4.b9(0.3),m=A.b([A.lw(A.aa("No",r,r,r,r,r,r,r)),A.lw(s.lN("Nama","nama")),A.lw(s.lN("NIDN","nidn")),A.lw(s.lN("Perguruan Tinggi","perguruan_tinggi")),A.lw(s.lN(q,"program_studi")),A.lw(s.lN(q,"rumpun_prodi")),A.lw(s.lN("Jabatan","jabatan_fungsional")),A.lw(s.lN("Pendidikan","pendidikan_terakhir")),A.lw(s.lN("Gender","jenis_kelamin")),A.lw(s.lN("Status","status_aktivitas"))],t.UR),l=J.aTf(b).geX().fh(0,new A.atw(s),t.VZ).dO(0)
+return A.akU(A.wD(A.akU(A.wD(new A.Nb(m,new A.bn(new A.atx(),t.b),r,r,new A.b3(n,t.rc),20,l,A.aUH(m),r),o,B.a8,r,r,B.an),o,new A.aty(),!0),p,B.a8,new A.a4(a,8,a,8),r,B.ag),p,r,!0)},
 aab(a){var s=this,r=null,q=B.a4.b9(0.3),p=s.e,o=A.eU(r,r,r,B.pM,r,r,p>1?new A.atu(s):r,r,r,r,r)
 p=A.aa("Halaman "+p+" dari "+s.f,r,r,r,r,A.ax().$2$color$fontSize(B.V,13),r,r)
 return A.bv(r,A.bL(A.b([o,B.bT,p,B.bT,A.eU(r,r,r,B.pP,r,r,s.e<s.f?new A.atv(s):r,r,r,r,r)],t.p),B.v,B.dG,B.r,0,r),B.m,r,r,new A.ba(B.bL,r,new A.di(new A.ay(q,1,B.p,-1),B.o,B.o,B.o),r,r,r,B.D),r,r,r,r,new A.a4(a,12,a,12),r,r,r)}}
@@ -98421,11 +98421,11 @@ return J.ds(s==null?"":s)},
 $S:616}
 A.au1.prototype={
 $1(a){var s=this,r=null,q=A.aa("Filter: "+s.c,r,r,r,r,r,r,r),p=s.a,o=s.d
-return A.Lo(A.b([A.t3(B.hg,new A.atY(a),r),A.uT(B.a_u,new A.atZ(p,s.b,o,s.e,a),r)],t.p),B.bL,new A.ox(new A.au_(p,o),r),q)},
+return A.Lo(A.b([A.t3(B.hg,new A.atY(a),r),A.uT(B.a_t,new A.atZ(p,s.b,o,s.e,a),r)],t.p),B.bL,new A.ox(new A.au_(p,o),r),q)},
 $S:70}
 A.au_.prototype={
 $2(a,b){var s=this.a,r=this.b,q=t.p
-return A.cD(A.c4(A.b([A.bL(A.b([A.cu(A.aLw(B.a_w,new A.atU(s,b,r)),1),B.bT,A.cu(A.aLw(B.a_J,new A.atV(s,b)),1)],q),B.v,B.n,B.r,0,null),B.eP,A.cu(A.ad3(null,new A.atW(s,r,b),r.length,null),1)],q),B.v,B.n,B.r),380,320)},
+return A.cD(A.c4(A.b([A.bL(A.b([A.cu(A.aLw(B.a_v,new A.atU(s,b,r)),1),B.bT,A.cu(A.aLw(B.a_I,new A.atV(s,b)),1)],q),B.v,B.n,B.r,0,null),B.eP,A.cu(A.ad3(null,new A.atW(s,r,b),r.length,null),1)],q),B.v,B.n,B.r),380,320)},
 $S:617}
 A.atU.prototype={
 $0(){return this.b.$1(new A.atT(this.a,this.c))},
@@ -98482,14 +98482,14 @@ $0(){return this.a.y=!1},
 $S:0}
 A.atB.prototype={
 $1(a){var s=null,r=A.t3(B.hg,new A.atA(a),s),q=this.a,p=q.y?s:q.gal1(),o=A.AW(s,s,B.af,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s)
-return A.Lo(A.b([r,A.aFb(q.y?B.V1:B.pN,B.mX,p,o)],t.p),s,B.a_r,B.a_I)},
+return A.Lo(A.b([r,A.aFb(q.y?B.V1:B.pN,B.mX,p,o)],t.p),s,B.a_r,B.a_H)},
 $S:70}
 A.atA.prototype={
 $0(){A.eB(this.a,!1).jK(null)
 return null},
 $S:0}
 A.au9.prototype={
-$2(a4,a5){var s,r,q,p,o,n,m,l,k=null,j="total_dosen",i="Rumpun Prodi Terbanyak",h="by_rumpun",g="Status Aktivitas",f="by_status",e=a5.b>900,d=e?28:16,c=a5.d,b=e?420:320,a=e?620:460,a0=B.d.dt(c*(e?0.42:0.34),b,a),a1=t.p,a2=A.b([],a1),a3=this.a
+$2(a4,a5){var s,r,q,p,o,n,m,l,k=null,j="total_dosen",i="Program Studi Terbanyak",h="by_rumpun",g="Status Aktivitas",f="by_status",e=a5.b>900,d=e?28:16,c=a5.d,b=e?420:320,a=e?620:460,a0=B.d.dt(c*(e?0.42:0.34),b,a),a1=t.p,a2=A.b([],a1),a3=this.a
 if(e)a2.push(A.bL(A.b([A.cu(a3.PW(!0),1),B.ji,a3.PV(!0)],a1),B.a_,B.n,B.r,0,k))
 else B.b.U(a2,A.b([a3.PW(!1),B.da,a3.PV(!1)],a1))
 a2.push(B.ca)
@@ -98497,7 +98497,7 @@ s=a3.as
 s=A.cu(A.wZ(k,B.cp,!1,k,!0,B.B,k,A.KY(),s,k,k,k,k,k,2,A.vh(k,k,k,k,k,k,k,k,!0,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,"Cari nama atau NIDN...",k,k,k,k,k,k,k,k,k,!0,!0,!1,k,B.pO,k,k,k,k,k,k,s.a.a.length!==0?A.eU(k,k,k,B.lz,k,k,new A.au6(a3),k,k,k,k):k,k,k,k,k,k),B.a8,!0,k,!0,k,!1,k,B.cd,k,k,k,k,k,k,k,k,1,k,k,!1,"\u2022",k,k,k,new A.au7(a3),k,!1,k,k,!1,k,!0,k,B.bl,k,k,k,k,k,k,k,k,k,k,k,k,!0,B.av,k,B.dR,k,k,k,k),1)
 r=a3.dy?B.JN:B.JF
 s=A.b([s,B.cP,A.eU(k,k,k,A.hi(r,a3.gSS()?B.L:B.V,k,k),k,k,new A.au8(a3),k,k,k,"Filter")],a1)
-if(a3.gSS())s.push(A.t3(B.a_E,a3.galx(),k))
+if(a3.gSS())s.push(A.t3(B.a_D,a3.galx(),k))
 a2.push(A.bL(s,B.v,B.n,B.r,0,k))
 s=a3.aa2(e)
 a2.push(new A.zf(B.ar,s,a3.dy?B.kA:B.oI,B.kL,k))
@@ -98511,7 +98511,7 @@ p=p==null?k:p.i(0,j)
 p=a3.zV("Total Dosen",A.l(p==null?0:p),B.lw,B.L)
 o=a3.dx
 o=o==null?k:o.i(0,"total_rumpun")
-o=a3.zV("Rumpun Prodi",A.l(o==null?0:o),B.pK,B.bK)
+o=a3.zV("Program Studi",A.l(o==null?0:o),B.pK,B.bK)
 n=a3.dx
 n=n==null?k:n.i(0,"total_pt")
 n=a3.zV("Perguruan Tinggi",A.l(n==null?0:n),B.pH,B.bM)
@@ -98766,7 +98766,7 @@ s===$&&A.a()
 if(n.a.a>900){n=A.bt(20)
 r=A.b([new A.bu(0,B.S,B.l.b9(0.15),B.iK,24)],t.E)
 q=t.p
-q=A.bL(A.b([A.cD(A.c4(A.b([A.bv(o,A.aFv("assets/img/img-knks.png",o,52,o),B.m,o,o,new A.ba(B.j,o,o,n,r,o,B.D),o,o,o,o,B.Iz,o,o,o),B.V4,A.aa("PDDikti\nDosen Explorer",o,o,o,o,A.ax().$5$color$fontSize$fontWeight$height$letterSpacing(B.j,44,B.fB,1.15,-0.5),o,o),B.hc,A.aa("Scraping & analisis data dosen\nrumpun Ekonomi Syariah",o,o,o,o,A.ax().$3$color$fontSize$height(B.V,17,1.6),o,o),B.V6,p.Gc(B.lx,"Cari Prodi","Search & pilih prodi untuk scraping"),B.hc,p.Gc(B.Jx,"Live Progress","Monitor scraping secara realtime"),B.hc,p.Gc(B.JL,"Export Data","Download hasil ke spreadsheet")],q),B.a_,B.n,B.aV),o,420),B.UY,A.cD(p.ait(),o,440)],q),B.v,B.dG,B.r,0,o)
+q=A.bL(A.b([A.cD(A.c4(A.b([A.bv(o,A.aFv("assets/img/img-knks.png",o,52,o),B.m,o,o,new A.ba(B.j,o,o,n,r,o,B.D),o,o,o,o,B.Iz,o,o,o),B.V4,A.aa("PDDikti\nDosen Explorer",o,o,o,o,A.ax().$5$color$fontSize$fontWeight$height$letterSpacing(B.j,44,B.fB,1.15,-0.5),o,o),B.hc,A.aa("Scraping & analisis data dosen\nprogram studi Ekonomi Syariah",o,o,o,o,A.ax().$3$color$fontSize$height(B.V,17,1.6),o,o),B.V6,p.Gc(B.lx,"Cari Prodi","Search & pilih prodi untuk scraping"),B.hc,p.Gc(B.Jx,"Live Progress","Monitor scraping secara realtime"),B.hc,p.Gc(B.JL,"Export Data","Download hasil ke spreadsheet")],q),B.a_,B.n,B.aV),o,420),B.UY,A.cD(p.ait(),o,440)],q),B.v,B.dG,B.r,0,o)
 n=q}else n=A.e8(new A.dI(B.Dr,p.Tu(!0),o),o,o)
 return A.aG8(o,A.bv(o,A.fR(B.bi,A.b([m,l,k,A.e8(new A.cy(j,!1,A.os(A.wD(n,o,B.a8,B.IC,o,B.ag),s,o,!0),o),o,o),A.jw(12,A.aa("created by Akhdan Yafi W and Rayhan Jun from Al Azhar University Indonesia",o,o,o,o,A.ax().$2$color$fontSize(B.j.b9(0.3),11),B.cc,o),o,o,0,0,o,o)],t.p),B.B,B.b8,o),B.m,o,o,B.Du,o,o,o,o,o,o,o,o),o)},
 Gc(a,b,c){var s=null,r=B.L.b9(0.1),q=A.bt(12),p=t.p
@@ -98923,7 +98923,7 @@ return q},
 zO(){var s=0,r=A.I(t.H),q,p=2,o=[],n=this,m,l,k,j,i,h,g
 var $async$zO=A.J(function(a,b){if(a===1){o.push(b)
 s=p}for(;;)switch(s){case 0:h=n.e
-if(h.a===0){n.c.ab(t.d).f.it(B.Ve)
+if(h.a===0){n.c.ab(t.d).f.it(B.Vf)
 s=1
 break}n.R(new A.azR(n))
 p=4
@@ -98962,11 +98962,11 @@ return A.H($async$zO,r)},
 V6(){$.a2.k4$.push(new A.azQ(this))},
 L(a){this.ow(a)
 return A.vt(new A.azV(this))},
-Uh(){var s,r,q,p,o=this,n=null,m=A.bt(16),l=A.hL(B.a4.b9(0.3),1),k=t.p,j=A.b([B.JZ,B.cP,A.aa("Pilih Rumpun Prodi",n,n,n,n,A.ax().$3$color$fontSize$fontWeight(B.aa,16,B.ab),n,n),B.dQ],k),i=o.e
+Uh(){var s,r,q,p,o=this,n=null,m=A.bt(16),l=A.hL(B.a4.b9(0.3),1),k=t.p,j=A.b([B.JZ,B.cP,A.aa("Pilih Program Studi",n,n,n,n,A.ax().$3$color$fontSize$fontWeight(B.aa,16,B.ab),n,n),B.dQ],k),i=o.e
 if(i.a!==0){s=B.L.b9(0.15)
 r=A.bt(20)
 j.push(A.bv(n,A.aa(""+i.a+" dipilih",n,n,n,n,A.ax().$3$color$fontSize$fontWeight(B.L,12,B.ab),n,n),B.m,n,n,new A.ba(s,n,n,r,n,n,B.D),n,n,n,n,B.Im,n,n,n))}j=A.bL(j,B.v,B.n,B.r,0,n)
-s=A.wZ(n,B.cp,!1,n,!0,B.B,n,A.KY(),o.f,n,n,n,n,n,2,A.vh(n,n,n,n,n,n,n,n,!0,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,'Cari nama rumpun prodi... (contoh: "Ekonomi Syariah")',n,n,n,n,n,n,n,n,n,!0,!0,!1,n,B.pO,n,n,n,n,n,n,o.w.length!==0?A.eU(n,n,n,B.lz,n,n,new A.azK(o),n,n,n,n):n,n,n,n,n,n),B.a8,!0,n,!0,n,!1,n,B.cd,n,n,n,n,n,n,n,n,1,n,n,!1,"\u2022",n,new A.azL(o),n,n,n,!1,n,n,!1,n,!0,n,B.bl,n,n,n,n,n,n,n,n,n,n,n,n,!0,B.av,n,B.dR,n,n,n,n)
+s=A.wZ(n,B.cp,!1,n,!0,B.B,n,A.KY(),o.f,n,n,n,n,n,2,A.vh(n,n,n,n,n,n,n,n,!0,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,'Cari nama program studi... (contoh: "Ekonomi Syariah")',n,n,n,n,n,n,n,n,n,!0,!0,!1,n,B.pO,n,n,n,n,n,n,o.w.length!==0?A.eU(n,n,n,B.lz,n,n,new A.azK(o),n,n,n,n):n,n,n,n,n,n),B.a8,!0,n,!0,n,!1,n,B.cd,n,n,n,n,n,n,n,n,1,n,n,!1,"\u2022",n,new A.azL(o),n,n,n,!1,n,n,!1,n,!0,n,B.bl,n,n,n,n,n,n,n,n,n,n,n,n,!0,B.av,n,B.dR,n,n,n,n)
 r=o.r
 q=o.x
 p=q.a
@@ -98979,8 +98979,8 @@ j.push(A.FW(s,8,8))}if(o.gRt().length===0&&!o.Q)j.push(new A.bf(B.bl,A.aa('Tidak
 j.push(B.cw)
 k=A.b([],k)
 if(i.a!==0&&!q.a){s=A.aGm(n,n,n,n,n,n,n,n,n,B.V,n,n,n,n,n,n,n,n,n,n)
-k.push(new A.Fc(!0,new A.azP(o),n,n,n,s,B.m,n,!1,n,!0,n,new A.a0F(B.a_v,B.JU,s,n,n),n))}k.push(B.dQ)
-if(q.a)k.push(A.aFX(B.K6,B.a_A,q.gaqh(),A.aFY(n,n,n,n,n,n,n,n,n,B.af,n,n,n,n,n,B.D6,n,n,n,n)))
+k.push(new A.Fc(!0,new A.azP(o),n,n,n,s,B.m,n,!1,n,!0,n,new A.a0F(B.a_u,B.JU,s,n,n),n))}k.push(B.dQ)
+if(q.a)k.push(A.aFX(B.K6,B.a_z,q.gaqh(),A.aFY(n,n,n,n,n,n,n,n,n,B.af,n,n,n,n,n,B.D6,n,n,n,n)))
 else{s=o.as
 if(!s)i=i.a===0
 else i=!0
@@ -104875,10 +104875,10 @@ B.Mk=s([0.00010146692491640572,0.0005364214359186694,0.0032979401770712076],t.n)
 B.NT=s([B.M6,B.N7,B.Mk],t.zg)
 B.NU=s([45,95,45,20,45,90,45,45,45],t.n)
 B.NV=s([120,120,20,45,20,15,20,120,120],t.n)
-B.a_D=new A.cS("User",null,null,null,null,null,null,null,null,null)
-B.HG=new A.hf("user",B.a_D,B.cg,null,t.b7)
-B.a_C=new A.cS("Admin",null,null,null,null,null,null,null,null,null)
-B.HF=new A.hf("admin",B.a_C,B.cg,null,t.b7)
+B.a_C=new A.cS("User",null,null,null,null,null,null,null,null,null)
+B.HG=new A.hf("user",B.a_C,B.cg,null,t.b7)
+B.a_B=new A.cS("Admin",null,null,null,null,null,null,null,null,null)
+B.HF=new A.hf("admin",B.a_B,B.cg,null,t.b7)
 B.NX=s([B.HG,B.HF],t.FG)
 B.ew=new A.i_(0,"controlModifier")
 B.ex=new A.i_(1,"shiftModifier")
@@ -105971,8 +105971,8 @@ B.S3=new A.w_(4,"unknown")
 B.bI=new A.ap7(1,"down")
 B.JV=new A.cF(B.pD,16,null,null,null)
 B.bT=new A.c2(8,null,null,null)
-B.a_y=new A.cS("Edit",null,null,null,null,null,null,null,null,null)
-B.MK=s([B.JV,B.bT,B.a_y],t.p)
+B.a_x=new A.cS("Edit",null,null,null,null,null,null,null,null,null)
+B.MK=s([B.JV,B.bT,B.a_x],t.p)
 B.SO=new A.rD(B.an,B.n,B.r,B.v,null,B.bI,null,0,B.MK,null)
 B.S4=new A.o6("edit",B.SO,null,t.wI)
 B.Ka=new A.cF(B.lv,16,B.bM,null,null)
@@ -106329,16 +106329,16 @@ B.Vb=new A.kK(3,"hide")
 B.a35=new A.kK(4,"remove")
 B.Vc=new A.kK(5,"timeout")
 B.Vd=new A.wG(null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a_t=new A.cS("Pilih minimal 1 rumpun prodi untuk scraping",null,null,null,null,null,null,null,null,null)
-B.Ve=new A.jD(B.a_t,B.bM,null,null,null,null,null,null,null,null,null,null,null,B.bE,!1,null,null,null,B.B,null)
-B.a_G=new A.cS("User berhasil di-logout",null,null,null,null,null,null,null,null,null)
-B.Vf=new A.jD(B.a_G,B.c5,null,null,null,null,null,null,null,null,null,null,null,B.bE,!1,null,null,null,B.B,null)
-B.a_B=new A.cS("Gagal memulai scraping",null,null,null,null,null,null,null,null,null)
-B.Vg=new A.jD(B.a_B,B.af,null,null,null,null,null,null,null,null,null,null,null,B.bE,!1,null,null,null,B.B,null)
-B.a_F=new A.cS("Gagal menghapus hasil scraping",null,null,null,null,null,null,null,null,null)
-B.Vh=new A.jD(B.a_F,B.af,null,null,null,null,null,null,null,null,null,null,null,B.bE,!1,null,null,null,B.B,null)
-B.a_H=new A.cS("Sesi telah berakhir karena tidak ada aktivitas.",null,null,null,null,null,null,null,null,null)
-B.Vi=new A.jD(B.a_H,B.bM,null,null,null,null,null,null,null,null,null,null,null,B.bE,!1,null,null,null,B.B,null)
+B.a_F=new A.cS("User berhasil di-logout",null,null,null,null,null,null,null,null,null)
+B.Ve=new A.jD(B.a_F,B.c5,null,null,null,null,null,null,null,null,null,null,null,B.bE,!1,null,null,null,B.B,null)
+B.a_J=new A.cS("Pilih minimal 1 program studi untuk scraping",null,null,null,null,null,null,null,null,null)
+B.Vf=new A.jD(B.a_J,B.bM,null,null,null,null,null,null,null,null,null,null,null,B.bE,!1,null,null,null,B.B,null)
+B.a_A=new A.cS("Gagal memulai scraping",null,null,null,null,null,null,null,null,null)
+B.Vg=new A.jD(B.a_A,B.af,null,null,null,null,null,null,null,null,null,null,null,B.bE,!1,null,null,null,B.B,null)
+B.a_E=new A.cS("Gagal menghapus hasil scraping",null,null,null,null,null,null,null,null,null)
+B.Vh=new A.jD(B.a_E,B.af,null,null,null,null,null,null,null,null,null,null,null,B.bE,!1,null,null,null,B.B,null)
+B.a_G=new A.cS("Sesi telah berakhir karena tidak ada aktivitas.",null,null,null,null,null,null,null,null,null)
+B.Vi=new A.jD(B.a_G,B.bM,null,null,null,null,null,null,null,null,null,null,null,B.bE,!1,null,null,null,B.B,null)
 B.Bu=new A.EH(0,"permissive")
 B.Vj=new A.EH(1,"normal")
 B.Vk=new A.EH(2,"forced")
@@ -106716,18 +106716,18 @@ B.Zl=new A.t(!0,B.l,null,".AppleSystemUIFont",null,null,null,null,null,null,null
 B.Wx=new A.t(!0,B.l,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.i,null,null,null,"blackRedwoodCity labelSmall",null,null,null,null)
 B.a_q=new A.eg(B.Yg,B.Xe,B.Yh,B.YI,B.WW,B.X3,B.Xx,B.YD,B.XJ,B.Z3,B.Wq,B.WI,B.Z0,B.Zl,B.Wx)
 B.a_r=new A.cS("Semua data dosen, program studi, dan perguruan tinggi hasil scraping akan dihapus dari database. Riwayat job scraping tetap disimpan. Lanjutkan?",null,null,null,null,null,null,null,null,null)
-B.a_u=new A.cS("Terapkan",null,null,null,null,null,null,null,null,null)
-B.a_v=new A.cS("Hapus Semua",null,null,null,null,null,null,null,null,null)
-B.a_w=new A.cS("Pilih Semua",null,null,null,null,null,null,null,null,null)
-B.a_x=new A.cS("Tambah User",null,null,null,null,null,null,null,null,null)
+B.a_t=new A.cS("Terapkan",null,null,null,null,null,null,null,null,null)
+B.a_u=new A.cS("Hapus Semua",null,null,null,null,null,null,null,null,null)
+B.a_v=new A.cS("Pilih Semua",null,null,null,null,null,null,null,null,null)
+B.a_w=new A.cS("Tambah User",null,null,null,null,null,null,null,null,null)
 B.hg=new A.cS("Batal",null,null,null,null,null,null,null,null,null)
-B.a_z=new A.cS("Hapus User",null,null,null,null,null,null,null,null,null)
-B.a_A=new A.cS("Stop Scraping",null,null,null,null,null,null,null,null,null)
+B.a_y=new A.cS("Hapus User",null,null,null,null,null,null,null,null,null)
+B.a_z=new A.cS("Stop Scraping",null,null,null,null,null,null,null,null,null)
 B.BX=new A.cS("Logout",null,null,null,null,null,null,null,null,null)
 B.BY=new A.cS("Coba Lagi",null,null,null,null,null,null,null,null,null)
-B.a_E=new A.cS("Reset",null,null,null,null,null,null,null,null,null)
-B.a_I=new A.cS("Hapus Hasil Scraping",null,null,null,null,null,null,null,null,null)
-B.a_J=new A.cS("Kosongkan",null,null,null,null,null,null,null,null,null)
+B.a_D=new A.cS("Reset",null,null,null,null,null,null,null,null,null)
+B.a_H=new A.cS("Hapus Hasil Scraping",null,null,null,null,null,null,null,null,null)
+B.a_I=new A.cS("Kosongkan",null,null,null,null,null,null,null,null,null)
 B.a38=new A.aoA(0,"system")
 B.QM=new A.f(0.056,0.024)
 B.R3=new A.f(0.108,0.3085)
